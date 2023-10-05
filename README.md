@@ -17,4 +17,4 @@ appendChild(): which was used for adding a new child element to a parent element
 
 localStorage.setItem : Used for storing data on the webpage into the web browser's local storage
 
-Blob : used for creatin a Blob object which represents raw data and was used for working with  data URL
+Blob : used for creating a Blob object which represents raw data and was used for working with  data URL
