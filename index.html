@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouPlan</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="nav">
+        <div class="p-3">
+            <h1 class="nav text-capitalize">youPlan</h1>
+        </div>
+        <div class="hr "></div>
+    </div>
+   
+
+    <div id="containers" class="container">
+        <div class="">
+            <div id="input1"  class="text-capitalize input1 p-3" >name of task</div>
+        </div>
+        <div class="p-2">
+            <div id="refInput1" class="text-capitalize text-dark input2" ></div>
+        </div>
+        <div class="p-2">
+            <div class="text-capitalize input3" >description of task</div>
+        </div>
+        <div class="p-2">
+            <div id="refInput2" class="input4" type="text" ></div>
+        </div>
+        <div class="p-2">
+            <div  class="input5 text-capitalize"  type="text">deadline </div>
+        </div>
+        <div class="p-2">
+            <div id="refInput3" class="input6" ></div>
+        </div>
+
+        <div class="text-capitalize">
+            <input id="done" type="button"  value="done">
+        </div>
+       
+    </div>
+    <div class="p-3">
+        <input class=" btn1 text-capitalize" id="download" type="button" onclick="Downloadbtn()" value="download">
+      </div>
+    <div class="position-relative" id="bdy">
+        <form id="bdy1">
+            <label class="p-1 text-capitalize">name of task</label>
+            <div class="p-2">
+                <input id="firstInput" class="text-capitalize txt1" type="text">
+            </div>
+            <label class="p-1 text-capitalize">description of task</label>
+            <div class="p-2 txt2main">
+                <textarea rows="4" cols="5" maxlength="300" id="secondInput"  type="text"  class="txt2 text-capitalize"></textarea>
+            </div>
+            <label class=" p-1 text-capitalize">deadline</label>
+            <div class="p-2">
+                <input id="thirdInput" type="date">
+            </div>
+            <div class="p-2 submit position-absolute bottom-0 end-0 ">
+                <!-- <button id="buttons"  class="btn2">submit</button> -->
+                <input type="button" onclick="Submit()" class="btn2 text-capitalize" id="buttons" value="submit">
+                <div class="submit1">
+                    <input type="button" value="check data" class="  text-capitalize" onclick="Checkdata()">
+                </div>
+            </div>
+        </form>
+     
+    </div>
+
+    <script src="./JavaScript/index.js"></script>
+   
+</body>
+</html>

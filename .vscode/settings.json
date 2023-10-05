@@ -1,0 +1,7 @@
+{
+    "debug.openExplorerOnEnd": false,
+    "problems.showCurrentInStatus": false,
+    "notebook.cellToolbarVisibility": "click",
+    "debug.toolBarLocation": "floating",
+    "testing.alwaysRevealTestOnStateChange": false
+}
